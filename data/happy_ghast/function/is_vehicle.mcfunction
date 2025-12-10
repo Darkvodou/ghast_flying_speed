@@ -1,0 +1,2 @@
+execute as @e[tag=ride_hpg,predicate=!happy_ghast:is_vehicle] run function happy_ghast:remove_speed
+execute as @e[tag=ride_hpg,predicate=happy_ghast:is_vehicle] run schedule function happy_ghast:is_vehicle 1s append
